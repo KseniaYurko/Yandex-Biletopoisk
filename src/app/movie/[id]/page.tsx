@@ -4,7 +4,7 @@ import Image from "next/image";
 import { genres } from "@/data/data";
 import { useGetMovieQuery } from "@/redux/services/movieApi";
 import Top from "./components/top/top";
-import Information from "./components/information";
+import Information from "./components/information/info";
 import Description from "./components/description/description";
 import Reviews from "./components/reviews/reviews";
 import styles from "./page.module.css";
